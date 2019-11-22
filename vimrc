@@ -49,6 +49,12 @@ let sessionman_save_on_exit = 1
 " Let %% expands to directory of %
 cabbr <expr> %% expand('%:h')
 
+" CtrlP
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
 " Filetypes
 autocmd BufRead,BufNewFile *.ejs    set filetype=html
 autocmd BufRead,BufNewFile *.ru     set filetype=ruby
