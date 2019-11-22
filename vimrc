@@ -16,6 +16,7 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
