@@ -40,7 +40,6 @@ set equalalways
 set splitbelow splitright
 
 " NERD-Tree
-"noremap <Leader>f :NERDTreeToggle<CR>
 map <C-n> :NERDTreeToggle<CR>
 
 " Sessions
