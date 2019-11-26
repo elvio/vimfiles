@@ -31,7 +31,7 @@ color monokai
 set autowrite autoindent
 set mouse=a
 set nojoinspaces            " Don't put 2 spaces after a full stop
-set expandtab tabstop=8 softtabstop=4 shiftwidth=4
+set expandtab tabstop=4 softtabstop=4 shiftwidth=4
 set showmatch matchtime=2
 set whichwrap=<,>,h,l,[,]
 set foldenable foldlevelstart=99
