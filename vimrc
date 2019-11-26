@@ -57,7 +57,7 @@ cabbr <expr> %% expand('%:h')
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Filetypes
 autocmd BufRead,BufNewFile *.ejs    set filetype=html
