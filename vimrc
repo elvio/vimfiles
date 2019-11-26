@@ -70,3 +70,9 @@ autocmd FileType javascript,ruby,sh set number
 
 " Shell scripts
 let g:is_bash=1
+
+" Disable the arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
